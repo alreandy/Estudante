@@ -35,14 +35,20 @@ public class Estudante {
         this.sexo = sexo;
         this.Matricula = matricula;
     }
-
+    
+    
+    void criarEstudante(){
+        
+    }
+    
     public void ArtibuirNota() {
 
     }
 
     public void ArtibuirNota(int indice) { // crie aiii nao sei se esta certo
-        indice = 0;
-        this.Nota = indice;
+        
+        
+        
     }
 
     public void exibir() {
