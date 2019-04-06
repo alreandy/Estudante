@@ -17,6 +17,45 @@ public class Estudante {
     private double Nota;
     private String Matricula;
 
+    Estudante() {
+        //contrutor vazio sem parametro
+    }
+
+    Estudante(String nome, char sexo) {
+        //contrutor que inicia o nome e o sexo.
+
+        this.nome = nome;
+        this.sexo = sexo;
+    }
+
+    Estudante(String nome, char sexo, String matricula) {
+        //contrutor que inicia o nome e o sexo, matricula.
+
+        this.nome = nome;
+        this.sexo = sexo;
+        this.Matricula = matricula;
+    }
+
+    public void ArtibuirNota() {
+
+    }
+
+    public void ArtibuirNota(int indice) { // crie aiii nao sei se esta certo
+        indice = 0;
+        this.Nota = indice;
+    }
+
+    public void exibir() {
+
+        System.out.println("A nota do aluno é: " + Nota);
+    }
+
+    public void exibir(String titulo) {
+
+        System.out.println("A nota do aluno é: " + Nota + "e o parametro "
+                + "passado é:" + titulo);
+    }
+
     public String getNome() {
         return nome;
     }

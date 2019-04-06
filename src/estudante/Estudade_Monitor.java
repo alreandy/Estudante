@@ -9,7 +9,7 @@ package estudante;
  *
  * @author kedson dos Anjos
  */
-class Estudade_Munitor extends Aluno {
+class Estudade_Monitor extends Aluno {
     
      private double Bolsa;
      private String Disciplina;
